@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context="com.nsromapa.android.runners.AccountVerificationActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="75sp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/launcher"
+        android:contentDescription="@string/launcher" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verify_Big_note"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#003569"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/verification_note"
+        android:textColor="#003569"
+        android:textSize="13sp"
+        android:layout_weight="0.10"
+        tools:ignore="InefficientWeight" />
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/verificationKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/submitVerif"
+        android:text="@string/verify_button"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:shadowColor="#FFFFFF"
+        android:textSize="12sp"
+        android:id="@+id/resendVerifBtn"
+        android:text="@string/resendVerificationButt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

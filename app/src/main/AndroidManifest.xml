@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nsromapa.android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".signup_login.LoginActivity" />
+        <activity android:name=".signup_login.RegistrationActivity1" />
+        <activity android:name=".runners.AccountVerificationActivity" />
+        <activity android:name=".runners.CompleteVerificationActivity" />
+        <activity android:name=".signup_login.RegistrationActivity2" />
+        <activity android:name=".signup_login.RegistrationActivity3" />
+        <activity android:name=".signup_login.RegistrationActivity4" />
+        <activity android:name=".fogetpass.ForgetPassActivity1" />
+        <activity android:name=".fogetpass.ForgetPassActivity2" />
+        <activity android:name=".fogetpass.ConfirmForgetEmailActivity" />
+        <activity
+            android:name=".friendsprofile.FriendProfile"
+            android:parentActivityName=".HomeActivity" />
+        <activity android:name=".viewers.PostImageViewer" />
+        <activity android:name=".viewers.PostVideoViewer" />
+        <activity android:name=".viewers.LikersHaters"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.nsromapa.android.signup_login.RegistrationActivity1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="75sp"
+        app:srcCompat="@drawable/launcher"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/launcher"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Signup_bold"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#003569"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/create_pass"
+        android:textColor="#003569"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_pass"
+        android:layout_marginBottom="5dp"/>
+
+
+
+    <EditText
+        android:id="@+id/regPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginBottom="25dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/repeatPass"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/regPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginBottom="25dp"/>
+
+
+
+    <Button
+        android:id="@+id/btnNext4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Signup_bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/OpenLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Already_a_member_Log_in_Now"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+
+</LinearLayout>

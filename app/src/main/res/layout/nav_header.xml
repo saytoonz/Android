@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:paddingBottom="14dp"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/DrawerUserProfilePic"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:contentDescription="@string/launcher"
+        app:border_color="#FFFFFF"
+        app:border_width="3dp"/>
+
+    <TextView
+        android:id="@+id/DrawerUserFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/DrawerUserUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:text="" />
+
+
+
+</LinearLayout>
+
+    <!--android:background="@drawable/launcher"-->

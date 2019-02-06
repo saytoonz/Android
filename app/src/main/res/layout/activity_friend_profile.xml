@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.nsromapa.android.friendsprofile.FriendProfile">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/FriendProfileAppbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:fitsSystemWindows="true"
+        app:elevation="0dp">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/colorPrimary"
+            app:expandedTitleTextAppearance="@android:color/transparent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/friendCoverPicInFriendsProfile"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@color/hash"
+                android:contentDescription="@string/launcher"
+                android:scaleType="centerCrop"
+                android:src="@drawable/defaultpicmale"
+                app:layout_collapseMode="parallax" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="109dp"
+                android:layout_marginTop="110dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingStart="20dp"
+                android:paddingBottom="5dp"
+                app:layout_collapseMode="parallax"
+                tools:ignore="RtlSymmetry">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/friendProfilePicInFriendsProfile"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/defaultpicmale"
+                    app:border_color="@color/white"
+                    app:border_width="2dp" />
+
+
+                <Button
+                    android:layout_width="108dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="26dp"
+                    android:text="@string/TakeAction"
+                    android:textSize="12sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="26dp" />
+
+                <TextView
+                    android:id="@+id/friendFullNameInFriendsProfile"
+                    android:layout_width="337dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="27dp"
+                    android:padding="5dp"
+                    android:text="@string/your_full_name"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="27dp" />
+
+            </RelativeLayout>
+
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbarProfileAppbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:title="@string/Username" />
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabsInFriendsProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/colorPrimaryDark"
+            app:tabMode="fixed"
+            app:tabTextColor="@color/colorPrimaryDark"
+            tools:targetApi="lollipop" />
+
+    </android.support.design.widget.AppBarLayout>
+
+       <android.support.v4.view.ViewPager
+           android:id="@+id/viewPagerInFriendsProfile"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+</android.support.design.widget.CoordinatorLayout>

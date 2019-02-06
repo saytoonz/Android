@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Nsromapa</string>
+    <string name="action_settings">Settings</string>
+    <string name="verification_note">Verification code and link sent to your email/phone, open link to verify or enter code below to verify.</string>
+    <string name="verify_Big_note">Verify email/phone</string>
+    <string name="verify_button">verify</string>
+    <string name="resendVerificationButt">Resend verification</string>
+    <string name="launcher" />
+    <string name="like_Nsromapa">like</string>
+    <string name="complete_verification_none">Your account has been completely accepted by Nsromapa. Now like Nsromapa to continue.</string>
+    <string name="successful_verif_bold">Verification Successful</string>
+    <string name="ic_verified" />
+    <string name="Signup_bold">Sign Up</string>
+    <string name="signup_1st_page">Choose Username and Enter your email</string>
+    <string name="Username">Username</string>
+    <string name="Email">Email</string>
+    <string name="Next">Next</string>
+    <string name="Already_a_member_Log_in_Now">Already a member? Log in Now</string>
+    <string name="Enter_your_full_name">Enter your full name</string>
+    <string name="First_Name">First Name</string>
+    <string name="Last_Name">Last Name</string>
+    <string name="DateofBirth">Date of Birth</string>
+    <string name="selDOB">Tap to Select Date</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="create_pass">Create a Password</string>
+    <string name="repeatPass">Repeate a Password</string>
+    <string name="sel_DOB_GENDER">Select Date of Birth and gender</string>
+    <string name="forgetPass">Forget Password?</string>
+    <string name="click_toJoin">Not a member? Sign up Now</string>
+    <string name="login">Login</string>
+    <string name="passWord">Password</string>
+    <string name="change_pass">Change Password</string>
+    <string name="serch_for_account">Search for Your Nsromapa Account</string>
+    <string name="serch_butt">Search</string>
+    <string name="not_my_account">Not My Account</string>
+    <string name="click_to_get_email_notification">Click to get email verification link to reset change your password</string>
+    <string name="userImage">userImage</string>
+    <string name="your_full_name">Your Full Name</string>
+    <string name="Enter_Code">Enter Code</string>
+    <string name="fog_verifSent">Verification Code has been sent to your email. Please enter code to create a New Password</string>
+    <string name="title_activity_bain">BainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="MyTimeline">My Timeline</string>
+    <string name="MyLikes">My Likes</string>
+    <string name="MyLiked">My Liked</string>
+    <string name="MyAbout">About Me</string>
+    <string name="MyPhotos">My Photos</string>
+    <string name="MyAudios">My Audios</string>
+    <string name="MyVideos">My Videos</string>
+    <string name="MyPets">My Pets</string>
+    <string name="MyOwner">My Owner</string>
+    <string name="MyFriends">My Friends</string>
+    <string name="AddNote">Add Note</string>
+    <string name="FindMe">Find Me</string>
+    <string name="Schedules">Schedules</string>
+    <string name="Dating">Dating</string>
+    <string name="Market">Market</string>
+    <string name="Jobaround">Job-around</string>
+    <string name="Adverts">Adverts</string>
+    <string name="Others">Others</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Tab1">Dating isn’t about data. It isn’t about algorithms.
+        It isn’t about how many friends you have in common,
+        or whether you want a boy or a girl or no kids at all,
+        it isn’t about how tall someone is or the color or their hair,
+        and it isn’t about finding \"the one\".
+        Dating is a chance — a chance to meet someone new,
+        a chance for them to introduce you to people,
+        places and things that you never knew that you’d love.
+        It’s the chance that you won’t like them and that they won’t like you.
+        And it’s the chance that they will and that you will too.
+        It’s the chance to spend time together — maybe a lifetime but maybe just an hour.
+        It’s the chance to meet anyone, anywhere in the world.
+        It’s the chance that there might be more out there, something you’ve never even imagined.
+        Dating isn’t about data. It isn’t about algorithms.
+        It isn’t about how many friends you have in common,
+        or whether you want a boy or a girl or no kids at all,
+        it isn’t about how tall someone is or the color or their hair,
+        and it isn’t about finding \"the one\".
+        Dating is a chance — a chance to meet someone new,
+        a chance for them to introduce you to people,
+        places and things that you never knew that you’d love.
+        It’s the chance that you won’t like them and that they won’t like you. A
+        nd it’s the chance that they will and that you will too.
+        It’s the chance to spend time together — maybe a lifetime but maybe just an hour.
+        It’s the chance to meet anyone, anywhere in the world.
+        It’s the chance that there might be more out there,
+        something you’ve never even imagined.
+        Dating isn’t about data. It isn’t about algorithms.
+        It isn’t about how many friends you have in common,
+        or whether you want a boy or a girl or no kids at all,
+        it isn’t about how tall someone is or the color or their hair,
+        and it isn’t about finding \"the one\".
+        Dating is a chance — a chance to meet someone new,
+        a chance for them to introduce you to people,
+        places and things that you never knew that you’d love.
+        It’s the chance that you won’t like them and that they won’t like you.
+        And it’s the chance that they will and that you will too.
+        It’s the chance to spend time together — maybe a lifetime but maybe just an hour.
+        It’s the chance to meet anyone, anywhere in the world.
+        It’s the chance that there might be more out there,
+        something you’ve never even imagined.</string>
+    <string name="action_logout">Logout</string>
+    <string name="AddFriend">Add Friend</string>
+    <string name="TakeAction">Action</string>
+    <string name="Postedon">Posted on</string>
+    <string name="Postedon_profile">profile</string>
+    <string name="your">your</string>
+    <string name="tab_5">Tab 5</string>
+    <string name="tab_4">Tab 4</string>
+    <string name="action_save">Save</string>
+    <string name="action_share">Share</string>
+    <string name="action_set_as_wallpaper">Set as Wallpaper</string>
+    <string name="play_pause">play and pause</string>
+</resources>

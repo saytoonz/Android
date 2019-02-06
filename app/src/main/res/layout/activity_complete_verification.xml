@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context="com.nsromapa.android.runners.CompleteVerificationActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/ic_verified"
+        android:contentDescription="@string/ic_verified" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="@string/successful_verif_bold"
+        android:textColor="#003569"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/complete_verification_none"
+        android:textColor="#003569"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/Liked_Nsromapa_to_continue"
+        android:text="@string/like_Nsromapa"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"/>
+
+
+</LinearLayout>

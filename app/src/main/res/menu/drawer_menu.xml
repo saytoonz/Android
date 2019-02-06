@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/MyTimeline"
+            android:icon="@drawable/ic_map"
+            android:title="@string/MyTimeline" />
+
+        <item
+            android:id="@+id/MyFriends"
+            android:icon="@drawable/ic_group"
+            android:title="@string/MyFriends" />
+
+        <item
+            android:id="@+id/MyLikes"
+            android:icon="@drawable/ic_thumb_up"
+            android:title="@string/MyLikes" />
+
+        <item
+            android:id="@+id/MyLiked"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/MyLiked" />
+
+        <item
+            android:id="@+id/MyOwner"
+            android:icon="@drawable/ic_mood"
+            android:title="@string/MyOwner" />
+
+        <item
+            android:id="@+id/MyPets"
+            android:icon="@drawable/ic_pets"
+            android:title="@string/MyPets" />
+
+        <item
+            android:id="@+id/MyAbout"
+            android:icon="@drawable/ic_person"
+            android:title="@string/MyAbout" />
+
+        <item
+            android:id="@+id/MyPhotos"
+            android:icon="@drawable/ic_image"
+            android:title="@string/MyPhotos" />
+
+        <item
+            android:id="@+id/MyAudios"
+            android:icon="@drawable/ic_album"
+            android:title="@string/MyAudios" />
+        <item
+            android:id="@+id/MyVideo"
+            android:icon="@drawable/ic_image"
+            android:title="@string/MyVideos" />
+
+
+    </group>
+
+
+    <item android:title="@string/Others">
+        <menu>
+            <item
+                android:id="@+id/Schedule"
+                android:icon="@drawable/ic_schedule"
+                android:title="@string/Schedules" />
+
+            <item
+                android:id="@+id/Dating"
+                android:icon="@drawable/ic_event"
+                android:title="@string/Dating" />
+
+            <item
+                android:id="@+id/Market"
+                android:icon="@drawable/ic_monetization"
+                android:title="@string/Market" />
+
+            <item
+                android:id="@+id/JobAround"
+                android:icon="@drawable/ic_work"
+                android:title="@string/Jobaround" />
+
+            <item
+                android:id="@+id/Adverts"
+                android:icon="@drawable/ic_event"
+                android:title="@string/Adverts" />
+
+            <item
+                android:id="@+id/FindMe"
+                android:icon="@drawable/ic_search_black"
+                android:title="@string/FindMe" />
+
+            <item
+                android:id="@+id/AddNote"
+                android:icon="@drawable/ic_event_note"
+                android:title="@string/AddNote" />
+        </menu>
+    </item>
+
+</menu>

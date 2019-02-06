@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.nsromapa.android.viewers.PostImageViewer">
+
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/imageView_photo_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/black" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/imageViewToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:subtitleTextColor="@color/refresh2"
+        app:titleTextColor="@color/cardview_dark_background"
+        android:layout_alignParentLeft="true" />
+
+
+
+    <LinearLayout
+        android:id="@+id/PostImageViewerActionButtons"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="fill_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageButton
+                android:id="@+id/PostImageViewerActionButtons_like"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                app:srcCompat="@drawable/ic_like"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"/>
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="20000"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/PostImageViewerActionButtons_hate"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                app:srcCompat="@drawable/ic_hate"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="20000"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/PostImageViewerActionButtons_comment"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_comment"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="20000"
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+
+
+
+        <ImageButton
+            android:id="@+id/PostImageViewerActionButtons_delete"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_delete_forever"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
